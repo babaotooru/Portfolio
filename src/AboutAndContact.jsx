@@ -40,7 +40,7 @@ const AboutAndContact = () => {
             <p ref={contactP2Ref} className={`subHeading fade-in-up${contactP2Visible ? ' animate' : ''}`}>Take a Coffee & Connect with me...</p>
             <div ref={contactLinksRef} className={`linksContainer fade-in-up${contactLinksVisible ? ' animate' : ''}`}>
                 <a className='linkedIn' href='https://www.linkedin.com/in/otooru-baba-2976a1235' target='_blank'><p className=''>Linked </p><img src='/images/hero/linkedIn.svg' alt='linked In' /></a>
-                <a className='gmail' href='mailto:babaotooru@gmail.com' target='_blank'><p>Mail</p><img src='/images/about/gmail.svg' alt='gmail' /></a>
+                <a className='gmail' href='mailto:babaotooru@gmail.com'><p>Mail</p><img src='/images/about/gmail.svg' alt='gmail' /></a>
             </div>
         </div>
     </>
